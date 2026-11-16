@@ -1,0 +1,285 @@
+{
+  "schema": "elevenid.repository-extraction/v1",
+  "destination_repository": "ElevenID/platform",
+  "source_repository": "ElevenID/marty-ui",
+  "source_commit": "9e098423b5d98bc1bb50147f6cf1412973256144",
+  "history": "attributed-source-snapshot; original commits retained at source URLs",
+  "license_expression": "AGPL-3.0-only",
+  "producer_identity_changed": false,
+  "files": [
+    {
+      "path": "LICENSE",
+      "classification": "byte-identical",
+      "source": {
+        "path": "LICENSE",
+        "git_blob": "0ad25db4bd1d86c452db3f9602ccdbe172438f52",
+        "sha256": "sha256:8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
+        "last_changed_commit": null,
+        "url": "https://github.com/ElevenID/marty-ui/blob/9e098423b5d98bc1bb50147f6cf1412973256144/LICENSE",
+        "history_boundary_commit": "79b6f9908424ee4426d27d6c700a610231dacc36",
+        "history_truncated": true
+      },
+      "extracted_sha256": "sha256:8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+    },
+    {
+      "path": "deploy-config/schemas/product-artifact-manifest.schema.json",
+      "classification": "byte-identical",
+      "source": {
+        "path": "deploy-config/schemas/product-artifact-manifest.schema.json",
+        "git_blob": "85302a4a09b3e1ef0d591cfe5a471f69cbada44d",
+        "sha256": "sha256:7841c4dcfdf110c781439eb91a4d1dc9ec65f91c208380ca0b3aa4307f94c70d",
+        "last_changed_commit": null,
+        "url": "https://github.com/ElevenID/marty-ui/blob/9e098423b5d98bc1bb50147f6cf1412973256144/deploy-config/schemas/product-artifact-manifest.schema.json",
+        "history_boundary_commit": "79b6f9908424ee4426d27d6c700a610231dacc36",
+        "history_truncated": true
+      },
+      "extracted_sha256": "sha256:7841c4dcfdf110c781439eb91a4d1dc9ec65f91c208380ca0b3aa4307f94c70d"
+    },
+    {
+      "path": "deploy-config/schemas/product-package.schema.json",
+      "classification": "byte-identical",
+      "source": {
+        "path": "deploy-config/schemas/product-package.schema.json",
+        "git_blob": "c817a56e22bbf4fef341a83a6b3c6b9ec1cc7370",
+        "sha256": "sha256:651cd2f60b7bdf701a32b6e17b40aa961b19f5a1760ffc603b92f697b08debf8",
+        "last_changed_commit": null,
+        "url": "https://github.com/ElevenID/marty-ui/blob/9e098423b5d98bc1bb50147f6cf1412973256144/deploy-config/schemas/product-package.schema.json",
+        "history_boundary_commit": "79b6f9908424ee4426d27d6c700a610231dacc36",
+        "history_truncated": true
+      },
+      "extracted_sha256": "sha256:651cd2f60b7bdf701a32b6e17b40aa961b19f5a1760ffc603b92f697b08debf8"
+    },
+    {
+      "path": "install.sh",
+      "classification": "byte-identical",
+      "source": {
+        "path": "install.sh",
+        "git_blob": "b68c66b2dc7398383bc50c75a58ce5eaa70e8909",
+        "sha256": "sha256:2cfa72bc75b4a74582d7f51aabf95ea13244016a283e138f70c77b9ad2bd3bf7",
+        "last_changed_commit": "ae6c8c3cda8af2bc1a3fe2c3014b8784bc7003ac",
+        "url": "https://github.com/ElevenID/marty-ui/blob/9e098423b5d98bc1bb50147f6cf1412973256144/install.sh"
+      },
+      "extracted_sha256": "sha256:2cfa72bc75b4a74582d7f51aabf95ea13244016a283e138f70c77b9ad2bd3bf7"
+    },
+    {
+      "path": "scripts/authenticate_product_verification.py",
+      "classification": "byte-identical",
+      "source": {
+        "path": "scripts/authenticate_product_verification.py",
+        "git_blob": "a7881c75143267ab986df125e3fb7bd520c3922e",
+        "sha256": "sha256:2a2cdf92617f3b4a70111b0f3c0f3fa54e8fc7cd7114d5bd888c2fc48b99db06",
+        "last_changed_commit": null,
+        "url": "https://github.com/ElevenID/marty-ui/blob/9e098423b5d98bc1bb50147f6cf1412973256144/scripts/authenticate_product_verification.py",
+        "history_boundary_commit": "79b6f9908424ee4426d27d6c700a610231dacc36",
+        "history_truncated": true
+      },
+      "extracted_sha256": "sha256:2a2cdf92617f3b4a70111b0f3c0f3fa54e8fc7cd7114d5bd888c2fc48b99db06"
+    },
+    {
+      "path": "scripts/check_product_artifact_manifest.py",
+      "classification": "byte-identical",
+      "source": {
+        "path": "scripts/check_product_artifact_manifest.py",
+        "git_blob": "0ced00edf72e19b6a4ba6d66a089d979de353707",
+        "sha256": "sha256:7003b1f616ce19b74f0952e9ac10fdd1f4774f8ac5dfa76f41e95b23d050353e",
+        "last_changed_commit": null,
+        "url": "https://github.com/ElevenID/marty-ui/blob/9e098423b5d98bc1bb50147f6cf1412973256144/scripts/check_product_artifact_manifest.py",
+        "history_boundary_commit": "79b6f9908424ee4426d27d6c700a610231dacc36",
+        "history_truncated": true
+      },
+      "extracted_sha256": "sha256:7003b1f616ce19b74f0952e9ac10fdd1f4774f8ac5dfa76f41e95b23d050353e"
+    },
+    {
+      "path": "scripts/product_evidence_intake.py",
+      "classification": "adapted",
+      "source": {
+        "path": "scripts/product_evidence_intake.py",
+        "git_blob": "e20a46b9f0292274273023e61811617784a2d5fc",
+        "sha256": "sha256:c85b590b98ae617809489bbe3a8fa91530b72804b7aa5a1cca1dfbc355925692",
+        "last_changed_commit": null,
+        "url": "https://github.com/ElevenID/marty-ui/blob/9e098423b5d98bc1bb50147f6cf1412973256144/scripts/product_evidence_intake.py",
+        "history_boundary_commit": "79b6f9908424ee4426d27d6c700a610231dacc36",
+        "history_truncated": true
+      },
+      "extracted_sha256": "sha256:0cf8ce840157868cfb5261448860dca2875b6e7f715928ebac42413a94019aa9",
+      "adaptation": "Replace the runpy dependency on compose_product_packages.py with the extracted product_package_identity.py; preserve validation semantics and producer identities."
+    },
+    {
+      "path": "scripts/product_package_identity.py",
+      "classification": "derived",
+      "sources": [
+        {
+          "path": "scripts/compose_product_packages.py",
+          "git_blob": "2627e2d0a5a03f258e56413444fe866f7d442293",
+          "sha256": "sha256:5f2b7fa701b590b83237eeb30617acae846ff0da863ffebe742425203adeb485",
+          "last_changed_commit": "a3256592bf7c281f9e330a35eb71947c6dc2a32f",
+          "url": "https://github.com/ElevenID/marty-ui/blob/9e098423b5d98bc1bb50147f6cf1412973256144/scripts/compose_product_packages.py"
+        },
+        {
+          "path": "scripts/product_package_plan.py",
+          "git_blob": "f5e7aefb7bb59ee9bd244d50cdbad45ff0b17f9b",
+          "sha256": "sha256:e7a5b8a7757e0fa2c6f0599d23514018436929aa2f5430f2a5099830a3553ddf",
+          "last_changed_commit": "63c4057515f7375f51c9816368adca29f02f68f2",
+          "url": "https://github.com/ElevenID/marty-ui/blob/9e098423b5d98bc1bb50147f6cf1412973256144/scripts/product_package_plan.py"
+        }
+      ],
+      "extracted_sha256": "sha256:3b0c72173a4fc3ef820d82fb8a70eeac93b01067f39780ff8eb9c1f4a8d700c7",
+      "adaptation": "Extract existing package_images and require functions with unchanged product/version/source/image identity checks. Inline the existing PRODUCTS, VERSION and SHA constants so the consumer does not import a source-build planner."
+    },
+    {
+      "path": "scripts/verify_installer_provenance.py",
+      "classification": "byte-identical",
+      "source": {
+        "path": "scripts/verify_installer_provenance.py",
+        "git_blob": "d355c41d760aa7db85422637b915d5747a045758",
+        "sha256": "sha256:7329be8d63291372fd6e593cf72cb06b3eb7c9bf268fb58bb93b9c43f65323e7",
+        "last_changed_commit": null,
+        "url": "https://github.com/ElevenID/marty-ui/blob/9e098423b5d98bc1bb50147f6cf1412973256144/scripts/verify_installer_provenance.py",
+        "history_boundary_commit": "79b6f9908424ee4426d27d6c700a610231dacc36",
+        "history_truncated": true
+      },
+      "extracted_sha256": "sha256:7329be8d63291372fd6e593cf72cb06b3eb7c9bf268fb58bb93b9c43f65323e7"
+    },
+    {
+      "path": "scripts/verify_product_attestations.py",
+      "classification": "byte-identical",
+      "source": {
+        "path": "scripts/verify_product_attestations.py",
+        "git_blob": "1c2cbbbdbe90a5bb4f6baaf2727a1b4e21c16f62",
+        "sha256": "sha256:2c3090d6643ad6fc92584c97c38c8fb2989973ac9ee9080a721dbf7c6eba1a01",
+        "last_changed_commit": null,
+        "url": "https://github.com/ElevenID/marty-ui/blob/9e098423b5d98bc1bb50147f6cf1412973256144/scripts/verify_product_attestations.py",
+        "history_boundary_commit": "79b6f9908424ee4426d27d6c700a610231dacc36",
+        "history_truncated": true
+      },
+      "extracted_sha256": "sha256:2c3090d6643ad6fc92584c97c38c8fb2989973ac9ee9080a721dbf7c6eba1a01"
+    },
+    {
+      "path": "scripts/verify_product_candidate.py",
+      "classification": "byte-identical",
+      "source": {
+        "path": "scripts/verify_product_candidate.py",
+        "git_blob": "4790ec0c46f9e0bbe4af607110e7d41396397b85",
+        "sha256": "sha256:f631b20a2e71959cdb187101d9c47a8626d67f1c53881126fadf8fe53a42a5f1",
+        "last_changed_commit": "63c4057515f7375f51c9816368adca29f02f68f2",
+        "url": "https://github.com/ElevenID/marty-ui/blob/9e098423b5d98bc1bb50147f6cf1412973256144/scripts/verify_product_candidate.py"
+      },
+      "extracted_sha256": "sha256:f631b20a2e71959cdb187101d9c47a8626d67f1c53881126fadf8fe53a42a5f1"
+    },
+    {
+      "path": "scripts/verify_product_registry.py",
+      "classification": "byte-identical",
+      "source": {
+        "path": "scripts/verify_product_registry.py",
+        "git_blob": "3798a1620b48c97c59fe4af3e4d0a4d04dbf9ab0",
+        "sha256": "sha256:0d981047eba20bda8a00137efa8d7fe5c92ae640d7dd1f34be5da2755f05936f",
+        "last_changed_commit": null,
+        "url": "https://github.com/ElevenID/marty-ui/blob/9e098423b5d98bc1bb50147f6cf1412973256144/scripts/verify_product_registry.py",
+        "history_boundary_commit": "79b6f9908424ee4426d27d6c700a610231dacc36",
+        "history_truncated": true
+      },
+      "extracted_sha256": "sha256:0d981047eba20bda8a00137efa8d7fe5c92ae640d7dd1f34be5da2755f05936f"
+    },
+    {
+      "path": "tests/test_authenticate_product_verification.py",
+      "classification": "byte-identical",
+      "source": {
+        "path": "tests/test_authenticate_product_verification.py",
+        "git_blob": "d83a2d1ae0f32e4c3512ae727fabda2ecc0c4041",
+        "sha256": "sha256:73bf1b1fec1ede17b171062e8e18e43160b28009820babf2a588928e3a441911",
+        "last_changed_commit": null,
+        "url": "https://github.com/ElevenID/marty-ui/blob/9e098423b5d98bc1bb50147f6cf1412973256144/tests/test_authenticate_product_verification.py",
+        "history_boundary_commit": "79b6f9908424ee4426d27d6c700a610231dacc36",
+        "history_truncated": true
+      },
+      "extracted_sha256": "sha256:73bf1b1fec1ede17b171062e8e18e43160b28009820babf2a588928e3a441911"
+    },
+    {
+      "path": "tests/test_installer_bootstrap.py",
+      "classification": "byte-identical",
+      "source": {
+        "path": "tests/test_installer_bootstrap.py",
+        "git_blob": "79e5a3674f2e4ae95997e00a77a2bc16558b6afb",
+        "sha256": "sha256:6ad6eba0b1530870a32d0b3ec3b9afd38c82669df94905e71659efa56f4837a9",
+        "last_changed_commit": "ae6c8c3cda8af2bc1a3fe2c3014b8784bc7003ac",
+        "url": "https://github.com/ElevenID/marty-ui/blob/9e098423b5d98bc1bb50147f6cf1412973256144/tests/test_installer_bootstrap.py"
+      },
+      "extracted_sha256": "sha256:6ad6eba0b1530870a32d0b3ec3b9afd38c82669df94905e71659efa56f4837a9"
+    },
+    {
+      "path": "tests/test_installer_rootless_bootstrap_linux.py",
+      "classification": "adapted",
+      "source": {
+        "path": "tests/test_installer_rootless_bootstrap_linux.py",
+        "git_blob": "90538b8496d776dfb1d0dfa952f1a3440fd4d5ef",
+        "sha256": "sha256:9e8b02085fccce757b5cf07fc96482372a2d6dbf455fe605d3ed7b7b93cba196",
+        "last_changed_commit": "b8d954c74831c1d4934ec5fd1c91f2008f801b44",
+        "url": "https://github.com/ElevenID/marty-ui/blob/9e098423b5d98bc1bb50147f6cf1412973256144/tests/test_installer_rootless_bootstrap_linux.py"
+      },
+      "extracted_sha256": "sha256:4c64380a1e7c1385e553f021ba9743d6ddb0659950836a4f658888c864bdedaf",
+      "adaptation": "Keep direct bootstrap boundary tests; leave the package_nightly_installation guide-generation test with its source-owned producer."
+    },
+    {
+      "path": "tests/test_product_artifact_manifest.py",
+      "classification": "byte-identical",
+      "source": {
+        "path": "tests/test_product_artifact_manifest.py",
+        "git_blob": "8e8b3a6201236d62f851813e162ec3a2881e562e",
+        "sha256": "sha256:1f6ba9b7af8656fd047f04a291d94cd6c8b9cbbadfbe5b210bcf69788efb2667",
+        "last_changed_commit": null,
+        "url": "https://github.com/ElevenID/marty-ui/blob/9e098423b5d98bc1bb50147f6cf1412973256144/tests/test_product_artifact_manifest.py",
+        "history_boundary_commit": "79b6f9908424ee4426d27d6c700a610231dacc36",
+        "history_truncated": true
+      },
+      "extracted_sha256": "sha256:1f6ba9b7af8656fd047f04a291d94cd6c8b9cbbadfbe5b210bcf69788efb2667"
+    },
+    {
+      "path": "tests/test_product_evidence_intake.py",
+      "classification": "adapted",
+      "source": {
+        "path": "tests/test_product_evidence_intake.py",
+        "git_blob": "17c0f6ebe158f3d5323b3b45522a68559539adb9",
+        "sha256": "sha256:b476478cffeca3a25e8e165ca753c1350e00858f4f2182c2e71cef52c715a295",
+        "last_changed_commit": null,
+        "url": "https://github.com/ElevenID/marty-ui/blob/9e098423b5d98bc1bb50147f6cf1412973256144/tests/test_product_evidence_intake.py",
+        "history_boundary_commit": "79b6f9908424ee4426d27d6c700a610231dacc36",
+        "history_truncated": true
+      },
+      "extracted_sha256": "sha256:772b7c480d8eb88be17ac1793cf946f872a091ce3ab9d5c4fedc0c9934fd97bd",
+      "adaptation": "Replace source-build fixture generation with portable synthetic candidates; preserve rejection and CLI tests."
+    },
+    {
+      "path": "tests/test_verify_installer_provenance.py",
+      "classification": "byte-identical",
+      "source": {
+        "path": "tests/test_verify_installer_provenance.py",
+        "git_blob": "b70c1547d956d876f49bd35d752be621eee764e5",
+        "sha256": "sha256:3828efb46af87af4750f44a00cc401595ee6a12eb36cc6c7d6bc9150fac88874",
+        "last_changed_commit": null,
+        "url": "https://github.com/ElevenID/marty-ui/blob/9e098423b5d98bc1bb50147f6cf1412973256144/tests/test_verify_installer_provenance.py",
+        "history_boundary_commit": "79b6f9908424ee4426d27d6c700a610231dacc36",
+        "history_truncated": true
+      },
+      "extracted_sha256": "sha256:3828efb46af87af4750f44a00cc401595ee6a12eb36cc6c7d6bc9150fac88874"
+    },
+    {
+      "path": "tests/test_verify_product_candidate.py",
+      "classification": "adapted",
+      "source": {
+        "path": "tests/test_verify_product_candidate.py",
+        "git_blob": "fa2857df2895d6ff1919af380c44ad39b2111622",
+        "sha256": "sha256:fbe35c7b1eef18fb2292bbb312cd09958f7168d25a73868927fdd2654de55f22",
+        "last_changed_commit": null,
+        "url": "https://github.com/ElevenID/marty-ui/blob/9e098423b5d98bc1bb50147f6cf1412973256144/tests/test_verify_product_candidate.py",
+        "history_boundary_commit": "79b6f9908424ee4426d27d6c700a610231dacc36",
+        "history_truncated": true
+      },
+      "extracted_sha256": "sha256:f733b91e6383c72ad50944a7f65df512980da6d836f23f99fffe532980e24cb4",
+      "adaptation": "Replace source-build fixture generation with a portable synthetic archive helper. Production verifier is unchanged; original builder compatibility was also checked separately."
+    }
+  ],
+  "source_history_shallow": true,
+  "history_boundaries": [
+    "79b6f9908424ee4426d27d6c700a610231dacc36"
+  ]
+}

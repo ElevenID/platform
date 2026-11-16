@@ -1,0 +1,40 @@
+{
+  "schema": "elevenid.source-builder-compatibility/v1",
+  "evidence_class": "local-synthetic-receipt-compatibility",
+  "source_repository": "ElevenID/marty-ui",
+  "source_commit": "9e098423b5d98bc1bb50147f6cf1412973256144",
+  "producer": "scripts/product_package_plan.py",
+  "consumer": "scripts/verify_product_candidate.py",
+  "image_receipts": "synthetic sha256:eeee... fixture digests, run 123 attempt 2",
+  "live_signature_verified": false,
+  "runtime_qualified": false,
+  "results": [
+    {
+      "product": "marty-server",
+      "producer_source": "9e098423b5d98bc1bb50147f6cf1412973256144",
+      "result": "pass",
+      "archive_sha256": "sha256:6e319a5c8b7317834685fa5a83bbb50f06f181600c6bd21f8399da9011549eaf",
+      "file_count": 47,
+      "runtime_file_count": 36,
+      "identity_validation": "pass",
+      "image_roles": [
+        "keycloak",
+        "migrations",
+        "openbao-didcomm",
+        "services"
+      ]
+    },
+    {
+      "product": "marty-console",
+      "producer_source": "9e098423b5d98bc1bb50147f6cf1412973256144",
+      "result": "pass",
+      "archive_sha256": "sha256:a1e1b3cfd1de617d94fd1627e4e13785f07d14c01815930ab06b2e79606258ce",
+      "file_count": 10,
+      "runtime_file_count": 0,
+      "identity_validation": "pass",
+      "image_roles": [
+        "ui"
+      ]
+    }
+  ]
+}
